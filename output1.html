@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<script>if(self != top){top.location.replace(window.location.href)}</script>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>
+
+	ImageTwist
+	-
+	Free Image Hosting &amp; Photo sharing
+
+</title>
+<!--<link href="/style2.css" rel="stylesheet" type="text/css" />-->
+<link href="/main.css?x=1" rel="stylesheet" type="text/css"/>
+<script src="https://imagetwist.com/xupload.js?x=2"></script>
+<meta content="ImageTwist -provides free image hosting and photo uploading service for social networks, forums, blogs and websites." name="description"/>
+<meta content="images, photos, photo hosting, image hosting, image upload, photo uploading, photo sharing, free image hosting, photo image hosting site, free photo gallery, image gallery" name="keywords"/>
+<meta content="8a3o86snt" name="trafficjunky-site-verification">
+<!--[if IE]>
+<style type="text/css">	  .clearfix {	    zoom: 1;     /* triggers hasLayout */	    display: block;     /* resets display for IE/Win */	    }  /* Only IE can see inside the conditional comment	    and read this CSS rule. Don't ever use a normal HTML	    comment inside the CC or it will close prematurely. */	</style>	<![endif]-->
+<script src="/jquery-1.12.4.min.js" type="text/javascript"></script>
+<!-- Latest compiled and minified CSS -->
+<!--<link rel="stylesheet" href="/css/bootstrap.min.css" >-->
+<link crossorigin="anonymous" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" rel="stylesheet"/>
+<!-- Optional theme -->
+<link href="/css/bootstrap-theme.min.css" rel="stylesheet"/>
+<!-- Latest compiled and minified JavaScript -->
+<!--<script src="/bootstrap.min.js"></script>-->
+<script crossorigin="anonymous" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link href="/css/new_style.css" rel="stylesheet">
+<link href="/fonts/imagetwist-icons.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,700,700italic&amp;subset=latin,cyrillic-ext,cyrillic,latin-ext" rel="stylesheet" type="text/css"/>
+<script src="/jquery.easing.1.3.js" type="text/javascript"></script>
+<script src="/jquery.cycle.all.min.js" type="text/javascript"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js" type="text/javascript"></script>
+<script>	$(function () {		$("#clientarea").hover(function(){$(this).stop().animate({ top: '0px'}, 'slow', 'easeOutQuad');}, function() { $(this).stop().animate({ top: '-178px'}, 'slow', 'easeOutBounce');});	});
+
+$(document).ready(function(){
+	$('.mmenu_button').click(function(){
+		$('.top-menu').slideToggle();
+	});
+});
+
+</script>
+<!-- Google tag (gtag.js) -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-RCR9PNF6FL"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-RCR9PNF6FL');
+</script>
+<script src="https://imagetwist.com/js/actions.js" type="text/javascript"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.9.0/moment-with-locales.js" type="text/javascript"></script>
+<script src="//cdn.rawgit.com/Eonasdan/bootstrap-datetimepicker/e8bddc60e73c1ec2475f827be36e1957af72e2ea/src/js/bootstrap-datetimepicker.js" type="text/javascript"></script>
+<link href="//cdn.rawgit.com/Eonasdan/bootstrap-datetimepicker/e8bddc60e73c1ec2475f827be36e1957af72e2ea/build/css/bootstrap-datetimepicker.css" rel="stylesheet"/>
+</link></link></meta></head>
+<body>
+<div class="container-fluid">
+<div class="row header" id="header">
+<div class="mmenu_button"><img alt="menu_button" src="/imgs/lines-menu.svg" width="22"/></div>
+<div class="col-md-3 col-sm-4"><a href="/"><span class="top-logo"><!--<img src="/imgs/colored_logo_santa.svg" alt="logo" />--></span></a></div>
+<div class="col-md-9 col-sm-8">
+<div id="bulb"></div>
+<ul class="top-menu">
+<li><a class="upload" href="https://imagetwist.com">Upload</a></li>
+<li><a class="login" href="https://imagetwist.com/?op=my_account">My Account</a></li>
+<li><a class="filemanager" href="https://imagetwist.com/?op=my_files">File Manager</a></li>
+<li><a class="reports" href="https://imagetwist.com/?op=my_reports">Reports</a></li>
+<!--li></li-->
+<li>
+<a class="premium" href="https://imagetwist.com/?op=payments">
+						
+							Premium
+						</a>
+</li>
+<li><a class="news" href="https://twitter.com/ImageTwist">News</a></li>
+<li><a class="earn_money" href="https://imagetwist.com/rewards.html">Earn Money!</a></li>
+<li><a class="logout" href="https://imagetwist.com/?op=logout">
+					Logout
+					</a></li>
+</ul>
+</div>
+</div>
+<!--header end --><!--body start -->
+<div class="container content" id="body">
+<div class="col-xs-12 notice"><span class="info"></span>
+<font color="green"><b>Maximum size of Image upload have been increased to 20Mb.</b></font>
+</div>
+<div style="clear:both;"></div>
+<script src="/clipboard.min.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$('.upload').addClass('active');
+		$('.footer-upload').parent().addClass('active');
+	});
+</script>
+<div class="col-xs-12 page_main_title">Files Uploaded</div>
+<div class="col-xs-12 text-center">Click the links below to copy links to your clipboard</div>
+<br/><br/>
+<br/><br/>
+<ul class="nav nav-tabs">
+<li class="active"><a data-toggle="tab" href="#tab1">View Links</a></li>
+<li><a data-toggle="tab" href="#tab2">Forum codes</a></li>
+<li><a data-toggle="tab" href="#tab3">HTML codes</a></li>
+</ul>
+<style>
+.grey_block{margin:0;border-top:0;}
+.nav>li>a:focus, .nav>li>a:hover{background-color:#f8f8f8; border}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{background-color:#f6f6f6; font-weight:600;}
+@media screen and (max-width: 768px) {
+.nav-tabs>li{max-width:33%;}
+}
+</style>
+<div class="tab-content">
+<div class="tab-pane fade in active col-xs-12 grey_block linkus" id="tab1">View Links<textarea class="link_textarea" id="tl0" onfocus="copy(this);" wrap="off">https://imagetwist.com/n4jmn64g0bw9/08010901531554-9.jpg
+</textarea><div class="text-center"><button class="btn btn-success btn-sm" data-clipboard-target="#tl0" id="tcl0">copy</button></div></div>
+<div class="tab-pane fade col-xs-12 grey_block linkus" id="tab2">Forum codes<textarea class="link_textarea" id="tl1" onfocus="copy(this);" wrap="off">[URL=https://imagetwist.com/n4jmn64g0bw9/08010901531554-9.jpg][IMG]https://img400.imagetwist.com/th/62634/n4jmn64g0bw9.jpg[/IMG][/URL]
+</textarea><div class="text-center"><button class="btn btn-success btn-sm" data-clipboard-target="#tl1" id="tcl1">copy</button></div></div>
+<div class="tab-pane fade col-xs-12 grey_block linkus" id="tab3">HTML codes<textarea class="link_textarea" id="tl2" onfocus="copy(this);"><a href="https://imagetwist.com/n4jmn64g0bw9/08010901531554-9.jpg.html" target="_blank"><img border="0" src="https://img400.imagetwist.com/th/62634/n4jmn64g0bw9.jpg"/></a><br/>
+
+</textarea><div class="text-center"><button class="btn btn-success btn-sm" data-clipboard-target="#tl2" id="tcl2">copy</button></div></div>
+<div class="tab-pane fade col-xs-12 grey_block linkus" id="tab4">Gallery Link <textarea class="link_textarea" id="tl3" onfocus="copy(this);"></textarea><div class="text-center"><button class="btn btn-success btn-sm" data-clipboard-target="#tl3" id="tcl3">copy</button></div></div>
+</div>
+<br/>
+<div class="row image_info" style="padding:0 15px;"><br/>
+<div class="grey_block linkus col-xs-12" style="border-top:1px solid #dfdfdf;">
+<div class="col-sm-4 col-xs-4">Filename:</div>
+<div class="col-sm-8 col-xs-8 blue-bolded">08010901531554-9.jpg</div>
+<div class="col-sm-4 col-xs-4">Size:</div>
+<div class="col-sm-8 col-xs-8 blue-bolded">62 KB</div>
+<div class="col-sm-4 col-xs-4">Preview:</div>
+<div class="col-sm-8 col-xs-8"><a href="https://imagetwist.com/n4jmn64g0bw9/08010901531554-9.jpg"><img border="0" src="https://img400.imagetwist.com/th/62634/n4jmn64g0bw9.jpg"/></a></div>
+<div class="col-sm-4 aligner">Share URL:</div>
+<div class="col-sm-8"><input id="l0-313171910" onfocus="copy(this);" type="text" value="https://imagetwist.com/n4jmn64g0bw9/08010901531554-9.jpg"/><button class="btn btn-success btn-sm" data-clipboard-target="#l0-313171910" id="cl0-313171910">copy</button></div>
+<div class="col-sm-4 aligner">Thumbnail BBCode (Forums):</div>
+<div class="col-sm-8"><input id="l1-313171910" onfocus="copy(this);" type="text" value="[URL=https://imagetwist.com/n4jmn64g0bw9/08010901531554-9.jpg][IMG]https://img400.imagetwist.com/th/62634/n4jmn64g0bw9.jpg[/IMG][/URL]"/><button class="btn btn-success btn-sm" data-clipboard-target="#l1-313171910" id="cl1-313171910">copy</button></div>
+<div class="col-sm-4 aligner">HTML for Websites:</div>
+<div class="col-sm-8"><input id="l2-313171910" onfocus="copy(this);" type="text" value='&lt;a href="https://imagetwist.com/n4jmn64g0bw9/08010901531554-9.jpg" target="_blank"&gt;&lt;img src="https://img400.imagetwist.com/th/62634/n4jmn64g0bw9.jpg" border="0"&gt;&lt;/a&gt;'/><button class="btn btn-success btn-sm" data-clipboard-target="#l2-313171910" id="cl2-313171910">copy</button></div>
+<!--<div class="col-sm-4 aligner">Delete Link:</div>
+				<div class="col-sm-8"><input id="l3-313171910" type="text" onFocus="copy(this);" value="https://imagetwist.com/n4jmn64g0bw9/08010901531554-9.jpg?killcode="><button class="btn btn-success btn-sm" id="cl3-313171910" data-clipboard-target="#l3-313171910">copy</button></div>-->
+</div>
+</div>
+<!--
+
+<b>Files Uploaded</b>
+<br>Click the links below to copy links to your clipboard<br><br>
+
+<table cellspacing=0 cellpadding=2 class="result_slot">
+<tr><td align=center>
+<h4>View Links</h4>
+<textarea style="width:640px;" rows=4 wrap=off>https://imagetwist.com/n4jmn64g0bw9/08010901531554-9.jpg
+
+</textarea>
+</td></tr>
+</table>
+
+<br>
+
+<table cellspacing=0 cellpadding=3 class="result_slot">
+<tr><td align=center>
+<h4>Forum codes</h4>
+<textarea style="width:640px;" rows=4 wrap=off>[URL=https://imagetwist.com/n4jmn64g0bw9/08010901531554-9.jpg][IMG]https://img400.imagetwist.com/th/62634/n4jmn64g0bw9.jpg[/IMG][/URL]
+
+</textarea>
+</td></tr>
+</table>
+
+<br>
+
+<table cellspacing=0 cellpadding=3 class="result_slot">
+<tr><td align=center>
+<h4>HTML codes</h4>
+<textarea style="width:640px;" rows=4 wrap=off><a href="https://imagetwist.com/n4jmn64g0bw9/08010901531554-9.jpg" target="_blank"><img src="https://img400.imagetwist.com/th/62634/n4jmn64g0bw9.jpg" border="0"></a><br>
+
+
+</textarea>
+</td></tr>
+</table>
+<br><br>
+
+
+<table cellspacing=0 cellpadding=3 class="result_slot">
+<tr><td align=center nowrap><b>Filename:</b></td><td colspan=2>08010901531554-9.jpg</td></tr>
+
+
+<tr><td align=center><b>Size:</b></td><td colspan=2>62 KB</td></tr>
+<tr><td align=center><b>Preview:</b></td><td colspan=2><a href="https://imagetwist.com/n4jmn64g0bw9/08010901531554-9.jpg"><img src="https://img400.imagetwist.com/th/62634/n4jmn64g0bw9.jpg" border="0"></a></td></tr>
+
+
+<tr><td align=center><b>Share URL:</b></td><td><input id="l0-313171910" type="text" style="width:480px;" onFocus="copy(this);" value="https://imagetwist.com/n4jmn64g0bw9/08010901531554-9.jpg"></td><td><input type="button" value="copy" id="cl0-313171910" class="btn2"></td></tr>
+
+<tr><td align=center><b>Thumbnail BBCode (Forums):</b></td> <td><input id="l1-313171910" type="text" style="width:480px;" onFocus="copy(this);" value="[URL=https://imagetwist.com/n4jmn64g0bw9/08010901531554-9.jpg][IMG]https://img400.imagetwist.com/th/62634/n4jmn64g0bw9.jpg[/IMG][/URL]"></td><td><input type="button" value="copy" id="cl1-313171910" class="btn2"></td></tr>
+<tr><td align=center><b>HTML for Websites:</b></td><td><input id="l2-313171910" type="text" style="width:480px;" onFocus="copy(this);" value='<a href="https://imagetwist.com/n4jmn64g0bw9/08010901531554-9.jpg" target="_blank"><img src="https://img400.imagetwist.com/th/62634/n4jmn64g0bw9.jpg" border="0"></a>'></td><td><input type="button" value="copy" id="cl2-313171910" class="btn2"></td></td></tr>
+<tr><td align=center><b>Delete Link:</b></td><td><input id="l3-313171910" type="text" style="width:480px;" onFocus="copy(this);" value="https://imagetwist.com/n4jmn64g0bw9/08010901531554-9.jpg?killcode=" style="background:#fff3f3"></td><td><input type="button" value="copy" id="cl3-313171910" class="btn2"></td></tr>
+
+
+
+
+</table>
+<br><br>
+
+
+<script type="text/javascript" src="https://imagetwist.com/ZeroClipboard.js"></script>
+<script type="text/javascript" language="JavaScript">
+function init(fid)
+{
+    clip0 = new ZeroClipboard.Client();
+ 	clip0.setHandCursor( true );
+ 	clip0.setText( $$('l0-'+fid).value );
+ 	clip0.addEventListener( 'mouseDown', function(client) { afterCopy(fid,'l0') } );
+ 	clip0.glue( 'cl0-'+fid );
+
+    clip1 = new ZeroClipboard.Client();
+ 	clip1.setHandCursor( true );
+ 	clip1.setText( $$('l1-'+fid).value );
+ 	clip1.addEventListener( 'mouseDown', function(client) { afterCopy(fid,'l1') } );
+ 	clip1.glue( 'cl1-'+fid );
+
+    clip2 = new ZeroClipboard.Client();
+ 	clip2.setHandCursor( true );
+ 	clip2.setText( $$('l2-'+fid).value );
+ 	clip2.addEventListener( 'mouseDown', function(client) { afterCopy(fid,'l2') } );
+ 	clip2.glue( 'cl2-'+fid );
+
+    clip3 = new ZeroClipboard.Client();
+ 	clip3.setHandCursor( true );
+ 	clip3.setText( $$('l3-'+fid).value );
+ 	clip3.addEventListener( 'mouseDown', function(client) { afterCopy(fid,'l3') } );
+ 	clip3.glue( 'cl3-'+fid );
+
+	clip4 = new ZeroClipboard.Client();
+ 	clip4.setHandCursor( true );
+ 	clip4.setText( $$('tl0').value );
+ 	clip4.addEventListener( 'mouseDown', function(client) { afterCopy(fid,'tl0') } );
+ 	clip4.glue( 'tcl0');
+
+    clip5 = new ZeroClipboard.Client();
+ 	clip5.setHandCursor( true );
+ 	clip5.setText( $$('tl1').value );
+ 	clip5.addEventListener( 'mouseDown', function(client) { afterCopy(fid,'tl1') } );
+ 	clip5.glue( 'tcl1');
+
+    clip6 = new ZeroClipboard.Client();
+ 	clip6.setHandCursor( true );
+ 	clip6.setText( $$('tl2').value );
+ 	clip6.addEventListener( 'mouseDown', function(client) { afterCopy(fid,'tl2') } );
+ 	clip6.glue( 'tcl2');
+}
+function afterCopy(fid,id)
+{
+    
+    $$('cl0-313171910').value='copy';
+    $$('cl1-313171910').value='copy';
+    $$('cl2-313171910').value='copy';
+    $$('cl3-313171910').value='copy';
+	$$('tcl0').value='copy';
+    $$('tcl1').value='copy';
+    $$('tcl2').value='copy';
+    
+    $$('c'+id+'-'+fid).value='copied';
+	$$('tc'+id).value='copied';
+}
+
+function init_all()
+{
+    ZeroClipboard.setMoviePath( 'https://imagetwist.com/ZeroClipboard.swf' );
+    init('313171910');
+}
+
+window.onload=function(){init_all();}
+
+function copy(obj)
+{
+  obj.focus();
+  obj.select();
+}
+</script>-->
+<script>
+new Clipboard('.btn');
+</script>
+<!--iframe src="javascript:false;" name="xupload" style="position:absolute;top:-9999px;left:-9999px;"></iframe><Script type="text/javascript">InitUploadSelector('files_list','my_file_element','5');document.getElementById('progress_frame').allowTransparency="true";</Script-->
+</div><!--content end -->
+<!--
+<style>
+p.copyright2 {padding-top:22px; float:right;margin-right:10px;color:#4A4A4A;font-size:85%;padding-bottom:0;}
+</style>-->
+<div class="row footer" id="footerMain">
+<div class="col-md-3 col-sm-12 copyright">© ImageTwist  2009-2024</div>
+<div class="col-md-7 col-sm-12 text-center" id="footer">
+<ul class="list-group list-inline">
+<li class="list-group-item"><a class="footer-upload" href="https://imagetwist.com"> ImageTwist</a></li>
+<li class="list-group-item"><a class="footer-linkus" href="https://imagetwist.com/banners.html">Link Us</a></li>
+<li class="list-group-item"><a class="footer-dmca" href="https://imagetwist.com/dmca.html"> DMCA</a></li>
+<!-- <li class="list-group-item"><a href="https://imagetwist.com/rewards.html" class="footer-earn_money"> Earn Money</a></li> -->
+<li class="list-group-item"><a class="footer-faq" href="https://imagetwist.com/faq.html"> FAQ</a></li>
+<li class="list-group-item"><a class="footer-tos" href="https://imagetwist.com/tos.html"> TOS</a></li>
+<!-- <li class="list-group-item"><a href="https://imagetwist.com/webmasters.html" class="footer-tos"> Webmasters</a></li> -->
+<li class="list-group-item"><a class="footer-contact" href="https://imagetwist.com/contact.html"> Contact Us</a></li>
+</ul>
+<!-- Start of Zopim Live Chat Script --><script type="text/javascript">window.$zopim||(function(d,s){var z=$zopim=function(c){z._.push(c)},$=z.s=d.createElement(s),e=d.getElementsByTagName(s)[0];z.set=function(o){z.set._.push(o)};$.setAttribute('charset','utf-8');$.async=!0;z.set._=[];$.src=('https:'==d.location.protocol?'https://ssl':'http://cdn')+'.zopim.com/?7BNZYj9NPgOrz8QpGKJ1gvc3eg3DyAH4';$.type='text/java'+s;z.t=+new Date;z._=[];e.parentNode.insertBefore($,e)})(document,'script')</script>
+<!-- End of Zopim Live Chat Script -->
+</div>
+<div class="col-md-2 col-sm-12 footer-logo"><a href="/"><img alt="logo" src="/imgs/grey_logo.svg" style="width:170px;"/></a></div>
+</div>
+</div>
+<!--footer end -->
+<!-- Default Statcounter code for ImageTwist
+http://imagetwist.com/ -->
+<script type="text/javascript">
+var sc_project=10731842; 
+var sc_invisible=1; 
+var sc_security="591147cb"; 
+</script>
+<script async="" src="https://www.statcounter.com/counter/counter.js" type="text/javascript"></script>
+<noscript><div class="statcounter"><a href="https://statcounter.com/" target="_blank" title="Web Analytics"><img alt="Web Analytics" class="statcounter" referrerpolicy="no-referrer-when-downgrade" src="https://c.statcounter.com/10731842/0/591147cb/1/"/></a></div></noscript>
+<!-- End of Statcounter Code -->
+</body>
+</html>
