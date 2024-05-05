@@ -1,0 +1,2 @@
+httpx # https://pypi.org/project/httpx/
+beautifulsoup4 # https://pypi.org/project/beautifulsoup4/
